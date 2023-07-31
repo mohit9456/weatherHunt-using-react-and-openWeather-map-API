@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600&family=Mukta:wght@400;500&family=REM&family=Signika+Negative&family=Ubuntu:wght@400;500&display=swap');
+body {
+  background: url('https://wallpaperaccess.com/full/1320245.jpg');
+  z-index: -1;
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .serch {
+    width: 60vh !important;
+    margin: -40px !important;
+    margin-top: 12px !important;
+    padding-left: 120px !important;
+    
+  }
+  .serch-1{
+    text-align: center !important;
+  }
+  .temp{
+    font-size: 4rem !important;
+    margin-left: 12px;
+  }
+  .name{
+    margin-left: 12px;
+  }
+  .bottom{
+    display: flex !important;
+   justify-content: center !important;
+    margin: 0 10px ;
+  }
+  .bottom-1{
+    margin: 0 !important;
+    width: 50% !important;
+    padding:  15px !important;
+    font-size: 14px !important;
+  }
+  .smt{
+    margin-top: 21px !important;
+  }
+}
